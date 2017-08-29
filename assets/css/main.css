@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+	margin: 0px;
+	padding: 0px;
+	/*outline: 1px solid red;*/
+	font-family: Montserrat;
+	
+}
+body{
+	
+	background-color: #660e83;
+	/*#660e83*/
+}
+.cabecera{
+	background: -webkit-linear-gradient(top,  #1c0e31, #1d0f35, #250f3c, #2a0e41); /*para poner un color degradado*/
+	color: white;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	display: flex;
+	display: inline-block;
+}
+.menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+.li{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
+	position: relative;
+	left: 60%;
+	font-size: 20px;
+
+}
+/*SECCION 1*/
+.logo{
+	background-image: url(../img/logo-white.png);
+	background-repeat: no-repeat;
+	background-size: 99%;
+	padding: 5%;
+	position: absolute;
+	top: 2%;
+	left: 3%;
+	position: fixed;
+	z-index: 2;/**/
+}
+.datos{
+	width: 40%;
+	height: 65%;
+	background: white;
+	position: absolute;
+	top:10%;
+	right: 0px;
+	text-align: justify;
+}
+.texti-inicial{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	color: blue;
+	font-size: 100%;
+}
+.input{
+	position: absolute;
+	top: 33%;
+	left: 64%;
+	display: block;
+	z-index: 1;
+}
+.boton1{
+	background-color: pink;
+	position: absolute;
+	top: 55%;
+	left: 64%;
+
+	
+}
+.boton2{
+	position: absolute;
+	top: 55.5%;
+	left: 75%;
+	font-size: 100%;
+
+	border: 0;
+  	padding: 0;
+  	background-color: transparent;    
+  	color: blue;
+  	border-bottom: 1px solid blue;
+}
+.video{
+	width: 60%;
+	position: relative;
+	/*bottom: 69px;*/
+	/*z-index: 1;/**/
+}
+
+/*SECCION 2*/
+.texto2{
+	color: white;
+	position: absolute;
+	left: 10%;
+	top: 80%;
+	padding-top: 5%;/*para posicionar las palabras*/
+}
+.imgCelu{
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	padding: 15%;
+	background-size: 95%;
+	position: absolute;
+	left: 60%;
+	top: 80%;
+
+}
+
+/*SECCION 3 1er video a reproducir*/
+#cuerpo3{
+	position: absolute;
+	top: 150%;
+	background: white;
+	width: 30%;
+	height: 50%;
+}
+.texto3{
+	text-align: justify;
+	position: relative;
+	left: 4%;
+	top: 1%;/**/
+	width: 90%;
+	color: black;
+
+}
+.parrafo{
+	position: absolute;
+	top: 200%;
+}
+
+.video1{
+	background-size: 50%;
+	position: relative;
+	left: 100%;
+	bottom: 10%;
+}
+/*SECCION 4 2do video a reproducir*/
+#cuerpo4{
+	position: absolute;
+	top: 210%;
+	right: 0px;
+	background: white;
+	position: absolute;
+	width: 30%;
+	height: 60%;
+}
+.texto4{
+	text-align: justify;
+	position: relative;
+	left: 4%;
+	top: 5%;/**/
+	width: 90%;
+}
+.video2{
+	background-size: 50%;
+	position: relative;
+	right: 234%;
+	width: 90%;
+	bottom: 10%;
+}
+/*SECCION 4 2do video a reproducir*/
+#cuerpo5{
+	position: absolute;
+	top: 270%;
+	background: white;
+	width: 30%;
+	height: 60%;
+}
+.video3{
+	background-size: 50%;
+	position: relative;
+	left: 100%;
+	width: 90%;
+	bottom: 5%;
+}
+/*seccion del footer*/
+footer{
+	width: 100%;
+	height: 500px;
+	color: yellow;
+	background: black;
+	position: absolute;
+	top: 2620px;
+	display: flex;
+}
+.footer1{
+	width: 15%;
+	height: 40%;
+	position:relative;
+	left:5%;
+	top: 10%;
+}
+.log-in{
+	list-style: none;
+	overflow: hidden;
+	text-align: justify;
+	
+}
+.footer2{
+	width: 15%;
+	height: 40%;
+	position:relative;
+	left:15%;
+	top: 10%;
+}
+.footer3{
+	width: 15%;
+	height: 40%;
+	position:relative;
+	left:25%;
+	top: 10%;
+}
+.img-redes-sociales{
+	position: absolute;
+	top: 70%;
+	left: 40%;
+}
+.facebook{
+	display: inline;
+}
+.foto{
+	display: inline;
+}
+.tiwiter{
+	display: inline;
+}
+.line{
+	position: absolute;
+	top: 75%;
+	left: 35%;
+}
+.final{
+	position: absolute;
+	top: 80%;
+	left: 39%;
+}
